@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="portf.css">
+</head>
+<body>
+  <header>
+    <h1>My Portfolio</h1>
+    <nav>
+      <li>
+      <a href="#home">Home</a></li>
+      <li><a href="#about-me">About Me</a></li>
+      <li><a href="#work-experience">Work Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <div id="currentTime"></div>
+    <script>
+      const element = document.getElementById('currentTime');
+      
+      setInterval(function () {
+        const currentDate = new Date();
+        element.innerText = currentDate.getHours() + ":" + currentDate.getMinutes() + ":" + currentDate.getSeconds();
+      }, 1000);
+    </script>
+    </nav>
+  </header>
+  <main>
+    <div id="home">
+      <h2>Welcome to my portfolio!</h2>
+      <p>I am a web developer with experience in HTML, CSS, and JavaScript. I am passionate about creating beautiful and user-friendly websites.</p>
+    </div>
+    <div>
+      <h2>Digital Presence</h2>
+    <nav>
+      <li><a href="https://www.linkedin.com/in/ganesh-reddy-0b49a41b0" target="_blank">LinkedIn</a></li>
+      <li><a href="https://github.com/Ganesreddy" target="_blank">GitHub</a></li>
+    </nav>
+    </div>
+    <div id="about-me">
+      <h2>About Me</h2>
+      <p>I am a recent graduate of Holy Mary Degree College, where I majored in Statistics. I am currently taking training as a Junior Java Full Stack Developer. I am passionate about web development and I am always looking for new challenges.</p>
+      <p>In my free time, I enjoy playing video games, reading, and spending time with my friends and family.</p>
+    </div>
+    <div id="work-experience">
+      <h2>Work Experience</h2>
+      <ul>
+          <strong>Web Developer</strong>
+      </ul>
+    </div>
+    <nav>
+      <h2>Skills</h2>
+        <aside>
+            <h1 class="html">HTML</h1>
+            <h1 class="css">CSS</h1>
+            <h1 class="js">JavaScript</h1>
+        </aside>
+       </nav>
+       <section id="projects">
+        <h2>Projects</h2>
+       <nav>
+          <li><a href="file:///C:/Users/ganesh/Downloads/project-1-main/project-1-main/pro.html" target="_blank">Project 1</a></li>
+          <li><a href="file:///C:/Users/ganesh/OneDrive/Desktop/portf.html" target="_blank">Project 2</a></li>
+          <li><a href="project3.html" target="_blank">Project 3</a></li>
+        </nav>
+      </section>  
+    <div id="contact">
+      <h2>Contact Me</h2>
+      <p>You can contact me at ganesh6301348@gmail.com or 6301348198.</p>
+    </div>
+  </main>
+  <footer>
+    <p>Copyright &copy; 2023 by Dharmana Ganesh Reddy.</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,157 @@
+body {
+    font-family: sans-serif;
+    margin: 10;
+    padding: 10;
+    border:100% solid gold;
+    background-color: black;
+    color:rgb(254, 254, 254);
+    letter-spacing: 0.004cm;
+  }
+  
+  header {
+    color: #fff;
+    padding: 77px;
+    background-repeat: no-repeat;
+  }
+  header h1{
+    padding: 20px;
+    padding-left: 0px;
+    text-shadow: 2px 3px 12px rgb(245, 239, 182);
+    color: rgb(255, 255, 255);
+  }
+  nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  nav li{
+    display:inline-block ;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: -2px -2px 10px rgb(172, 201, 129);
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+    font-size: 15px;
+  }
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    
+  }
+  
+  #currentTime {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+ 
+  
+  main {
+    padding: 100px;
+    padding-left: 80px;
+    border: 1px solid #ccc;
+    margin-bottom:20px;
+    box-shadow: -2px -2px 10px rgb(172, 201, 129);
+  }
+  /*nav li:hover {
+    background-color: rgb(146, 97, 38);
+    border-radius: 20px;
+    padding: 10px;
+   }*/
+
+   /*nav aside:hover {
+    background-color: orange;
+    display: inline-block;
+    border-radius: 80px;
+    padding: 10px;
+   }*/
+   nav aside{
+    border: 1px solid rgb(37, 35, 35);
+    padding: 32px;
+    margin: 0px;
+    margin-bottom: 20px;
+    display: flex;
+    color: rgb(214, 178, 15);
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: -8px -8px 20px rgb(37, 35, 35);
+    border-radius: 20px;
+    background: linear-gradient(45deg,rgb(30, 30, 30),rgb(6, 5, 5));
+    
+   }
+
+   .html{
+    border-radius: 20px;
+    border: 1px solid rgb(84, 84, 59);
+    padding: 100px;
+    margin: 0px;
+    font-size: 220%;
+    background: linear-gradient(45deg,rgb(45, 47, 42),rgb(35, 33, 29));
+    box-shadow: -2px -2px 10px rgb(172, 201, 129);
+   }
+   .css{
+    border-radius: 20px;
+    border: 1px solid rgb(37, 35, 35);
+    padding: 100px;
+    margin: 0px;
+    margin-left: 32px;
+    font-size: 220%;
+    background: linear-gradient(45deg,rgb(45, 47, 42),rgb(35, 33, 29));
+    box-shadow: -2px -2px 10px rgb(172, 201, 129);
+   }
+  .js{
+    border-radius: 20px;
+    border: 1px solid rgb(37, 35, 35);
+    padding: 95px;
+    margin: 0px;
+    margin-left: 32px;
+    margin-right: 32px;
+    font-size: 220%;
+    background: linear-gradient(45deg,rgb(45, 47, 42),rgb(35, 33, 29));
+    box-shadow: -2px -2px 10px rgb(172, 201, 129);
+  }
+
+  h2 {
+    margin-top: 0;
+    text-shadow: -2px -3px 20px rgb(255, 255, 255);
+    color: rgb(126, 5, 120);
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  #html{
+    width: 120px;
+    border-radius: 50px;
+  }
+  #css{
+    width: 100px; 
+    border-radius: 50px;
+  }
+  #java{
+    width: 100px;
+    border-radius: 50px;
+  
+  }
+  #js{
+    width: 100px;
+    border-radius: 10%;
+
+  }
+  footer {
+    background-color: #96783b;
+    text-align: center;
+    opacity: 0.5;
+  }
+  
+   
